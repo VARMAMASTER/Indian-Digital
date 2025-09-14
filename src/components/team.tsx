@@ -24,7 +24,7 @@ const members = [
   },
   {
     name: "Henry Lee",
-    role: "UX Engeneer",
+    role: "UX Engineer",
     avatar: "https://alt.tailus.io/images/team/member-four.webp",
     link: "#",
   },
