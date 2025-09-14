@@ -105,7 +105,7 @@ export default function HeroSection() {
                   as="h1"
                   className="mt-8 text-balance text-5xl md:text-7xl lg:mt-16 xl:text-[5.25rem] font-semibold"
                 >
-                  Designs That Captivate, Brands That Shine.
+                  Indian Digital — Empowering Indian Businesses Online
                 </TextEffect>
                 <TextEffect
                   per="line"
@@ -115,9 +115,8 @@ export default function HeroSection() {
                   as="p"
                   className="mx-auto mt-8 max-w-2xl text-balance text-lg"
                 >
-                  At Indian Digital, we blend creativity and strategy to craft
-                  stunning websites, striking visuals, and unforgettable brand
-                  experiences that set you apart.
+                  We build websites and digital products that help Indian
+                  businesses grow, reach customers, and succeed online.
                 </TextEffect>
 
                 <AnimatedGroup
@@ -169,7 +168,7 @@ export default function HeroSection() {
                     className="h-10.5 rounded-xl px-5"
                   >
                     <Link href="/full-version">
-                      <span className="text-nowrap">Full Version</span>
+                      <span className="text-nowrap">Explore Full Version</span>
                     </Link>
                   </Button>
                 </AnimatedGroup>
