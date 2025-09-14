@@ -45,10 +45,10 @@ export default function ContentSection() {
               customers and thrive online.
             </p>
             <blockquote className="mt-4 italic text-sm text-muted-foreground">
-              "Digital first, people always." — Indian Digital
+              &ldquo;Digital first, people always.&rdquo; — Indian Digital
             </blockquote>
             <blockquote className="mt-2 italic text-sm text-muted-foreground">
-              "Small businesses, big impact." — Our Mission
+              &ldquo;Small businesses, big impact.&rdquo; — Our Mission
             </blockquote>
           </ScrollView>
         </div>
