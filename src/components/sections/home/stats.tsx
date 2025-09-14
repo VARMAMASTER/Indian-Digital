@@ -9,14 +9,14 @@ export default function StatsSection() {
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
           <ScrollView>
             <h2 className="text-4xl font-medium lg:text-5xl">
-              Driven by Design. Backed by Results.
-            </h2>
+                Digitizing Businesses. Delivering Growth.
+              </h2>
           </ScrollView>
           <ScrollView delay={0.2}>
             <p>
-              At Indian Digital, we don’t just make things look good — we create
-              thoughtful design experiences that help businesses grow, connect
-              with their audience, and stand out in a crowded digital world.
+              At Indian Digital, we help Indian businesses go digital with
+              practical product thinking, modern web experiences, and clear
+              growth-focused design.
             </p>
           </ScrollView>
         </div>

@@ -38,12 +38,18 @@ export default function ContentSection() {
           </ScrollView>
           <ScrollView>
             <p>
-              Indian Digital was born from a simple idea—great design should do
-              more than just look good; it should make an impact. What started
-              as a passion for creativity turned into a full-fledged design
-              agency dedicated to helping brands tell their stories, connect
-              with audiences, and stand out in a crowded world.
+              Indian Digital was founded to digitize Indian businesses — helping
+              local brands grow through thoughtful product design, clear
+              strategy, and committed delivery. We build websites, brand
+              experiences, and digital tools that help businesses reach more
+              customers and thrive online.
             </p>
+            <blockquote className="mt-4 italic text-sm text-muted-foreground">
+              "Digital first, people always." — Indian Digital
+            </blockquote>
+            <blockquote className="mt-2 italic text-sm text-muted-foreground">
+              "Small businesses, big impact." — Our Mission
+            </blockquote>
           </ScrollView>
         </div>
         <ScrollView>

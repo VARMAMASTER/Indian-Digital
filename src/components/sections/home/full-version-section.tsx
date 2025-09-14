@@ -35,7 +35,7 @@ export default function FullVersionSection() {
             as="h1"
             className="text-balance text-5xl font-medium md:text-6xl"
           >
-            Full Version Comming Soon!
+            Indian Digital — Full Platform Coming Soon
           </TextEffect>
           <TextEffect
             per="line"
@@ -87,7 +87,7 @@ export default function FullVersionSection() {
                     size="sm"
                     className="rounded-(--radius)"
                   >
-                    <span className="hidden md:block">Join Now!</span>
+                    <span className="hidden md:block">Join the Waitlist</span>
                     <SendHorizonal
                       className="relative mx-auto size-5 md:hidden"
                       strokeWidth={2}

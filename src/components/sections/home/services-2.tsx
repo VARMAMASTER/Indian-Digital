@@ -13,15 +13,15 @@ export default function ServicesSection2() {
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
           <ScrollView>
             <h2 className="text-4xl font-medium lg:text-5xl">
-              Design That Works for You
+              Digital Products That Help Indian Businesses Grow
             </h2>
           </ScrollView>
           <ScrollView delay={0.2}>
             <p>
-              At Indian Digital, we create designs that are more than just visually
-              appealing. They&apos;re built to solve problems, connect with
-              audience, and drive results. <br /> Whether you’re starting fresh
-              or refining your existing identity, <br /> we’ve got you covered.
+              We build practical digital products and brand experiences that
+              solve real problems for Indian businesses — from simple websites
+              to full product suites. Whether you’re starting out or scaling up,
+              we help you move confidently into the digital world.
             </p>
           </ScrollView>
         </div>
