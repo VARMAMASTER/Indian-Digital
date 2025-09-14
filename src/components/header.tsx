@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
 import { NAV_LINKS } from "@/content/nav";
+import { ThemeToggle } from "./theme-toggle";
 
 export const HeroHeader = () => {
   const [menuState, setMenuState] = React.useState(false);
@@ -101,6 +102,9 @@ export const HeroHeader = () => {
                     <span>Full Version</span>
                   </Link>
                 </Button>
+                <div className="hidden lg:flex">
+                  <ThemeToggle />
+                </div>
                 <Button
                   asChild
                   size="sm"

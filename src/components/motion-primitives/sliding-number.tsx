@@ -1,12 +1,6 @@
 "use client";
 import { useEffect, useId } from "react";
-import {
-  MotionValue,
-  motion,
-  useSpring,
-  useTransform,
-  motionValue,
-} from "motion/react";
+import { motion, useSpring, useTransform, motionValue } from "motion/react";
 import useMeasure from "react-use-measure";
 
 const TRANSITION = {
@@ -35,11 +29,11 @@ function Digit({ value, place }: { value: number; place: number }) {
   );
 }
 
-function Number({ mv, number }: { mv: MotionValue<number>; number: number }) {
+function Number({ mv, number }: { mv: any; number: number }) {
   const uniqueId = useId();
   const [ref, bounds] = useMeasure();
 
-  const y = useTransform(mv, (latest) => {
+  const y = useTransform(mv, (latest: number) => {
     if (!bounds.height) return 0;
     const placeValue = latest % 10;
     const offset = (10 + number - placeValue) % 10;
