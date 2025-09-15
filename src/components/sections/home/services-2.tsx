@@ -6,7 +6,7 @@ import { SERVICES_LIST } from "@/content/services";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ServicesSection2() {
+export function Services2() {
   return (
     <section className="py-16 md:py-32" id="services">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">

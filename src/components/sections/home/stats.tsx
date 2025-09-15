@@ -2,7 +2,7 @@
 import { ScrollView } from "@/components/scroll-view";
 import { motion } from "motion/react";
 
-export default function StatsSection() {
+export function Stats() {
   return (
     <section className="py-12 md:py-20" id="stats">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">

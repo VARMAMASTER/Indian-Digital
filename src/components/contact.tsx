@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import { ScrollView } from "./scroll-view";
 
-export default function FeaturesSection() {
+export function Contact() {
   return (
     <section className="py-16 md:py-32 bg-gray-50 dark:bg-transparent">
       <div className="mx-auto max-w-6xl px-6">

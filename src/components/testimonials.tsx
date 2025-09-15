@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ScrollView } from "./scroll-view";
 
-export default function Testimonials() {
+export function Testimonials() {
   return (
     <section className="py-16 md:py-32" id="testimonials">
       <div className="mx-auto max-w-6xl space-y-8 px-6 md:space-y-16">

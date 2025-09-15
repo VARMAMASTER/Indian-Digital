@@ -1,10 +1,10 @@
-import AboutSection from "@/components/about";
-import TeamSection from "@/components/team";
+import { About as AboutComponent } from "@/components/about";
+import { Team as TeamSection } from "@/components/team";
 
-export default function AboutUsSection() {
+export function AboutSection() {
   return (
     <>
-      <AboutSection />
+      <AboutComponent />
       <TeamSection />
     </>
   );

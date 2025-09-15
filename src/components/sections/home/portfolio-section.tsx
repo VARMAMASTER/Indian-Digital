@@ -1,9 +1,9 @@
-import PortfolioCard from "@/components/portfolio-card";
+import { PortfolioCard } from "@/components/portfolio-card";
 import { PORTFOLIO_CONTENT } from "@/content/portfolio";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-export default function PortfolioSection() {
+export function PortfolioSection() {
   return (
     <section
       className="py-16 md:py-32 bg-gray-50 dark:bg-transparent"

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { CustomCursorElement } from "./custom-cursor-element";
 import { ScrollView } from "./scroll-view";
 
-export default function PortfolioCard({
+export function PortfolioCard({
   card,
 }: {
   card: {

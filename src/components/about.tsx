@@ -26,7 +26,7 @@ const ourPrinciples = [
   },
 ];
 
-export default function ContentSection() {
+export function About() {
   return (
     <section className="py-16 md:py-32" id="about">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-12">

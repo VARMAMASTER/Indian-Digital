@@ -42,7 +42,7 @@ const members = [
   },
 ];
 
-export default function TeamSection() {
+export function Team() {
   return (
     <section
       className="bg-gray-50 py-16 md:py-32 dark:bg-transparent"

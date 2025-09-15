@@ -1,4 +1,4 @@
-import FullVersionSection from "@/components/sections/home/full-version-section";
+import { FullVersionSection } from "@/components/sections/home/full-version-section";
 
 export default function Home() {
   return (

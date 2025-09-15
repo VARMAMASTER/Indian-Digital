@@ -24,7 +24,7 @@ const transitionVariants = {
   },
 };
 
-export default function FullVersionSection() {
+export function FullVersionSection() {
   return (
     <section>
       <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-32 lg:pt-48">

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 import { TextEffect } from "@/components/motion-primitives/text-effect";
 import { AnimatedGroup } from "@/components/motion-primitives/animated-group";
-import LogoCloud from "@/components/sections/home/logo-cloud";
+import { LogoCloud } from "@/components/sections/home/logo-cloud";
 
 const transitionVariants = {
   item: {
@@ -27,7 +27,7 @@ const transitionVariants = {
   },
 };
 
-export default function HeroSection() {
+export function HeroSection() {
   return (
     <>
       <div className="overflow-hidden min-h-screen">
